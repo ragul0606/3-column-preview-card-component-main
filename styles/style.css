@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+:root {
+  --clr-orange: hsl(31, 77%, 52%);
+  --clr-cyan: hsl(184, 100%, 22%);
+  --clr-dark-cyan: hsl(179, 100%, 13%);
+  --clr-white: hsla(0, 0%, 100%, 0.75);
+  --clr-light-gray: hsl(0, 0%, 95%);
+
+  --ff-lexend-deca: "Lexend Deca", sans-serif;
+  --ff-big-shoulders-display: "Big Shoulders Display", cursive;
+}
+
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 25px;
+  padding: 0.5rem 1.25rem;
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  cursor: pointer;
+  /* customize */
+  background-color: var(--clr-light-gray);
+  border: 2px solid var(--clr-light-gray);
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-light-gray);
+}
+
+.card {
+  width: 18rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-img {
+  width: 3.5rem;
+}
+
+.title {
+  font-family: var(--ff-big-shoulders-display);
+  color: var(--clr-light-gray);
+  font-size: 2rem;
+}
+
+.description {
+  font-family: var(--ff-lexend-deca);
+  color: var(--clr-white);
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.card-sedan {
+  background-color: var(--clr-orange);
+  padding: 2.25rem;
+  gap: 0.75rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.btn-sedan {
+  color: var(--clr-orange);
+}
+
+.card-suv {
+  background-color: var(--clr-cyan);
+  padding: 2.25rem;
+  gap: 0.75rem;
+}
+
+.btn-suvs {
+  color: var(--clr-cyan);
+}
+
+.card-luxury {
+  background-color: var(--clr-dark-cyan);
+  padding: 2.25rem;
+  gap: 0.75rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.btn-luxury {
+  color: var(--clr-dark-cyan);
+}
+
+@media screen and (min-width: 576px) {
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 991px) {
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+}
