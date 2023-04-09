@@ -137,6 +137,17 @@ body {
 }
 
 @media screen and (min-width: 576px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    width: 44rem;
+    height: auto;
+  }
 }
 
 /* Medium devices (tablets) */
