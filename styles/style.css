@@ -144,9 +144,29 @@ body {
     justify-content: center;
   }
 
+  .description {
+    font-size: 0.75rem;
+  }
+
+  .btn {
+    margin-top: 6rem;
+  }
+
   .card {
+    display: flex;
+    flex-direction: row;
     width: 44rem;
     height: auto;
+  }
+
+  .card-sedan {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .card-luxury {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 8px;
   }
 }
 
